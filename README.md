@@ -1,5 +1,5 @@
 
-# Plastic Boulders (BetaBouldersApp)
+# BetaBouldersApp
 
 A fully featured progressive web app (PWA) for indoor rock climbing gyms. Aimed towards gyms that want to engage with their members, advertise their climbs, and gain meaningful feedback. 
 
@@ -80,6 +80,6 @@ View important stats on your progress and see distribution of climbs at your gym
 3. Photogrammetry for wall sections
 
 
-&copy; 2018 Plastic Boulders
+&copy; 2018 BetaBouldersApp
 
 
