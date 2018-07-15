@@ -1,4 +1,6 @@
-@charset "UTF-8";body{font-family:'Rubik', sans-serif;position:relative;background:url(../images/bg.png) repeat-y center center;}
+@charset "UTF-8";body{font-family:'Rubik', 
+sans-serif;position:relative;
+background:url(../images/bg.png) repeat-y center center;}
 a{color:#02ABA0;}
 a:hover,
 a:focus{color:#d6619c;}
@@ -42,15 +44,6 @@ h2{font-size:30px;}
 .navbar-nav .nav-item{text-align:center;}
 }
 header{padding:100px 0 0;text-align:center;color:#3d3d3d;}
-.bg-nav{}
-.bg-top{background:url(../images/top.png) no-repeat center center fixed;     
-	background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
 .bg-gradient{background:#A1FFCE;background:-webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);background:linear-gradient(to right, #FAFFD1, #A1FFCE);}
 .tagline{font-size:23px;font-weight:300;color:#1d1d1d;max-width:800px;margin:0 auto;}
 .img-holder{height:0;padding-bottom:33%;overflow:hidden;}
