@@ -108,9 +108,10 @@ header{padding:100px 0 0;text-align:center;color:#3d3d3d;}
 .social-icons a:hover{text-decoration:none;color:#02ABA0;}
 @media (max-width:991px){.social-icons{text-align:center;margin-top:2rem;}
 }
+
 @media only screen and (max-width:576px) {
    .bg-top {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
     body{background:url(../images/bg.png) repeat-y;}
 }
