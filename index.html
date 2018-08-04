@@ -52,7 +52,7 @@
     </div>
 
 <header class="bg-top" id="home" style="background:url(./images/top.png) no-repeat center center fixed; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
-        <div class="img-holder mt-sm-5 pt-sm-5"><img src="images/iphonex.png" alt="phone" class="img-fluid pt-sm-5 animated fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+        <div class="img-holder"><img src="images/iphonex.png" alt="phone" class="img-fluid animated fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.1s"></div>
     </header>
 
     <div class="client-logos my-5 bg-white">
@@ -403,7 +403,10 @@
                 <p class="tagline">Available for all major mobile and desktop platforms. This app can be added to your homepage for even quicker accessibility. Coming in the future as an app for Google Play and Apple App Store.</p>
                 <div class="my-4">
 
-                    <button class="btn btn-light bg-white"><img src="./public/img/ReadMe/pwa.png" alt="icon" class="img-fluid" style="max-width: 120px"></button>
+                   
+                    <button class="btn btn-light bg-white"><img src="./images/apple.png" alt="icon" class="img-fluid" style="max-height: 120px"></button>
+                    <button class="btn btn-light bg-white"><img src="./images/play.png" alt="icon" class="img-fluid" style="max-height: 120px"></button>
+                     <button class="btn btn-light bg-white"><img src="./public/img/ReadMe/pwa.png" alt="icon" class="img-fluid" style="max-width: 120px"></button>
 
                 </div>
                 <p class="text-primary"><small><i>*Tested and working on all browsers including, Safari, Chrome, Firefox, and Edge. </i></small></p>
@@ -417,13 +420,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left">
+                	<div class="text-center mb-3"><img src="./images/logo-contact.png" class="img-fluid wow fadeInLeft" style="max-height: 256px"></div>
                     <p class="mb-2"> <span class="ti-location-pin mr-2"></span> Los Angeles, CA</p>
                     <div class=" d-block d-sm-inline-block">
                         <p class="mb-2">
                             <span class="ti-email mr-2"></span> <a class="mr-4" href="info@betabouldersapp.com">info@betabouldersapp.com</a>
                         </p>
                     </div>
-                    <div class="d-block d-sm-inline-block">
+                    <div class="d-block d-sm-inline-block mb-3">
                         <p class="mb-0">
                             <span class="ti-headphone-alt mr-2"></span> <a href="tel:6264238985">(626) 423-8985</a>
                         </p>
@@ -431,6 +435,31 @@
 
                 </div>
                 <div class="col-lg-6">
+           <!-- <div class="col-lg-6 col-md-12"> -->
+            <div class="form">
+              <form method="POST" action="https://formspree.io/betabouldersappa@gmail.com" class="contactform">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class=""><button type="submit" title="Send Message" class="btn text-white" style="background-image:linear-gradient(122deg, #02ABA0 0%, white 100%)">Send Message</button></div>
+              </form>
+            </div>
+          <!-- </div> -->
                     <div class="social-icons">
                         <a href="https://www.facebook.com/betabouldersapp/"><span class="ti-facebook"></span></a>
                         <a href="https://twitter.com/betabouldersapp/"><span class="ti-twitter-alt"></span></a>
