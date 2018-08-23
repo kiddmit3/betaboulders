@@ -115,3 +115,27 @@ header{padding:100px 0 0;text-align:center;color:#3d3d3d;}
     }
     body{background:url(../images/bg.png) repeat-y;}
 }
+
+.grow-md {
+    transition: all .2s ease-in-out;
+}
+
+.grow-md:hover {
+    transform: scale(1.3);
+}
+
+@keyframes spin {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-720deg) scale(1.3);
+        -ms-transform: rotate(-720deg) scale(1.3);
+        -webkit-transform: rotate(-720deg) scale(1.3);
+    }
+}
+.spin:hover {
+    -webkit-animation: 1.2s ease 0s normal 1 spin;
+    animation: 1.2s ease 0s normal 1 spin;
+}
