@@ -152,8 +152,8 @@ h2{font-size:30px;}
 }
 
 
-#logo-nav {width:150px;}
-
+/*#logo-nav {width:150px;}
+*/
 
 @media only screen and (max-width:576px) {
    .bg-top {
