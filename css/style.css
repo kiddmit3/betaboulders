@@ -152,14 +152,14 @@ h2{font-size:30px;}
 }
 
 
-
+#logo-nav {width:150px;}
 
 
 @media only screen and (max-width:576px) {
    .bg-top {
         background-attachment: scroll !important;
     }
-    body{background:url(../images/bg.png) repeat-y;}
+    body{background:url(../images/bg.png) repeat-y;};
 }
 
 
