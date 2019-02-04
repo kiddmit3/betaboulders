@@ -5,6 +5,21 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
+  <loc>https://main.betabouldersapp.com/</loc>
+  <lastmod>2019-02-02T02:12:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://main.betabouldersapp.com/climbs</loc>
+  <lastmod>2019-02-02T02:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://main.betabouldersapp.com/users/gyms/</loc>
+  <lastmod>2019-02-02T02:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://betabouldersapp.com/</loc>
   <lastmod>2019-01-18T21:21:06+00:00</lastmod>
   <priority>1.00</priority>
@@ -19,6 +34,20 @@
   <lastmod>2019-01-18T21:21:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://main.betabouldersapp.com/about</loc>
+  <lastmod>2019-02-02T02:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://main.betabouldersapp.com/privacy</loc>
+  <lastmod>2019-02-02T02:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://main.betabouldersapp.com/contact</loc>
+  <lastmod>2019-02-02T02:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 </urlset>
